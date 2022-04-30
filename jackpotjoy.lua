@@ -19,6 +19,8 @@ main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 main.Position = UDim2.new(0.123997569, 0, 0.206134975, 0)
 main.Size = UDim2.new(0, 178, 0, 112)
+main.Active = true
+main.Draggable = true
 
 FastOpen.Name = "Fast Open "
 FastOpen.Parent = main
