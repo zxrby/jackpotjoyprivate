@@ -68,4 +68,16 @@ addall.TextColor3 = Color3.fromRGB(0, 0, 0)
 addall.TextSize = 14.000
 addall.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/zxrby/jackpotjoy/main/k.lua"))()
+	print("addall loadet succsesfully")
 end)
+
+while true do 
+
+wait(5)
+
+print("+++++++++++++++++++++++++++++++++++++")
+print("+          ZXRBY PRIVATE SCRIPT               +")
+print("+ FAST OPENING CANT BE DISABLED     + ")
+print("+++++++++++++++++++++++++++++++++++++")
+
+end
