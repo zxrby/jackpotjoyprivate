@@ -80,8 +80,8 @@ _10t.Text = "add 10t"
 _10t.TextColor3 = Color3.fromRGB(0, 0, 0)
 _10t.TextSize = 14.000
 _10t.MouseButton1Click:Connect(function()
-	local string_1 = "Glitched Monster Mask";
-	local string_2 = "120000";
+	local string_1 = "Samurai Hat";
+	local string_2 = "51000";
 	local Target = game:GetService("ReplicatedStorage").Remotes.Jackpot;
 	Target:FireServer(string_1, string_2);
 end)
