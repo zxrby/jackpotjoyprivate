@@ -36,7 +36,7 @@ FastOpen.MouseButton1Click:Connect(function()
 	_G.Thing = true
 	_G.Case = "Samurai"
 
-	for i=1,700 do
+	for i=1,300 do
 		spawn(function()
 			while _G.Thing do 
 				game:GetService("ReplicatedStorage").Remotes.OpenCase:InvokeServer(_G.Case, tostring(game:GetService("Players").LocalPlayer.CasesPer.Value))
