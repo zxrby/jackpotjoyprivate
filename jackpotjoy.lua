@@ -34,7 +34,7 @@ FastOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
 FastOpen.TextSize = 14.000
 FastOpen.MouseButton1Click:Connect(function()
 	_G.Thing = true
-	_G.Case = "Samurai"
+	_G.Case = "Bitosolized"
 
 	for i=1,300 do
 		spawn(function()
